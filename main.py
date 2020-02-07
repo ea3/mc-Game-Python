@@ -1,18 +1,12 @@
-from game import Player
+from enemy import Enemy
 
-Emilio = Player("Emilio")
+random_monster = Enemy("Basic enemy", 12, 1)
+print(random_monster)
 
-print(Emilio.name)
-print(Emilio.lives)
-print(Emilio)
+random_monster.take_damage(4)
+print(random_monster)
 
-Emilio.lives -= 1
-print(Emilio)
-
-Emilio.lives -= 1
-print(Emilio)
-
-Emilio.lives -= 1
-print(Emilio)
-
-
+random_monster.take_damage(8)
+print(random_monster)
+random_monster.take_damage(8)
+print(random_monster)
