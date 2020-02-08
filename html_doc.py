@@ -17,3 +17,30 @@ class DocType(Tag):
     def __init__(self):
         super().__init__('!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" http://www.w3.org/TR/html4/strict.dtd', '')
         self.end_tag = ''       # DOCTYPE does not have and end tag
+
+
+class Head(Tag):
+
+    def __init__(self):
+        super().__init__('head', '')
+
+
+class Body(Tag):
+
+    def __init__(self):
+        super().__init__('body', '')
+        self._body_contents = []
+
+    def add_tag(self, name, contents):
+        new_tag = Tag(name, contents)
+        self._body_contents.append(new_tag)
+
+    def display(self):
+        for tag in self._body_contents:
+            self.contents += str(tag)
+
+        super().display()
+
+
+
+
