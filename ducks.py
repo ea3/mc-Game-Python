@@ -1,6 +1,6 @@
 class Duck(object):
 
-    def walf(self):
+    def walk(self):
         print("Waddle, waddle, waddle")
 
     def swin(self):
@@ -10,8 +10,20 @@ class Duck(object):
         print("Quack quack")
 
 
+class Penguin(object):
+
+    def walk(self):
+        print("Waddle, waddle, I waddle too")
+
+    def swin(self):
+        print("Come on it, but it is a bit chilly this far south")
+
+    def quack(self):
+        print("Are you 'avin' a larf? I'm a PENGUIN")
+
+
 def test_duck(duck):
-    duck.walf()
+    duck.walk()
     duck.swin()
     duck.quack()
 
