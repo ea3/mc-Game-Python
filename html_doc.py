@@ -42,5 +42,15 @@ class Body(Tag):
         super().display()
 
 
+class HtmlDoc(object):
+
+    def __init__(self):
+        self._doc_type = DocType()
+        self._head = Head()
+        self._body = Body()
+
+
+
+
 
 
