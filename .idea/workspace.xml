@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8bab849d-5623-437b-82d0-c25885e2be83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ducks.py" beforeDir="false" afterPath="$PROJECT_DIR$/ducks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_doc.py" beforeDir="false" afterPath="$PROJECT_DIR$/html_doc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Python.ducks">
+  <component name="RunManager" selected="Python.html_doc">
     <configuration name="ducks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Game" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +105,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="html_doc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/html_doc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Game" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.html_doc" />
         <item itemvalue="Python.ducks" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.enemy" />
@@ -149,25 +171,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="801" height="208" key="GridCell.Tab.0.bottom" timestamp="1581143200377">
+    <state width="1028" height="208" key="GridCell.Tab.0.bottom" timestamp="1581144222616">
       <screen x="49" y="23" width="1631" height="1027" />
     </state>
-    <state width="801" height="208" key="GridCell.Tab.0.bottom/49.23.1631.1027@49.23.1631.1027" timestamp="1581143200377" />
-    <state width="801" height="208" key="GridCell.Tab.0.center" timestamp="1581143200376">
+    <state width="1028" height="208" key="GridCell.Tab.0.bottom/49.23.1631.1027@49.23.1631.1027" timestamp="1581144222616" />
+    <state width="1028" height="208" key="GridCell.Tab.0.center" timestamp="1581144222616">
       <screen x="49" y="23" width="1631" height="1027" />
     </state>
-    <state width="801" height="208" key="GridCell.Tab.0.center/49.23.1631.1027@49.23.1631.1027" timestamp="1581143200376" />
-    <state width="801" height="208" key="GridCell.Tab.0.left" timestamp="1581143200376">
+    <state width="1028" height="208" key="GridCell.Tab.0.center/49.23.1631.1027@49.23.1631.1027" timestamp="1581144222616" />
+    <state width="1028" height="208" key="GridCell.Tab.0.left" timestamp="1581144222615">
       <screen x="49" y="23" width="1631" height="1027" />
     </state>
-    <state width="801" height="208" key="GridCell.Tab.0.left/49.23.1631.1027@49.23.1631.1027" timestamp="1581143200376" />
-    <state width="801" height="208" key="GridCell.Tab.0.right" timestamp="1581143200376">
+    <state width="1028" height="208" key="GridCell.Tab.0.left/49.23.1631.1027@49.23.1631.1027" timestamp="1581144222615" />
+    <state width="1028" height="208" key="GridCell.Tab.0.right" timestamp="1581144222616">
       <screen x="49" y="23" width="1631" height="1027" />
     </state>
-    <state width="801" height="208" key="GridCell.Tab.0.right/49.23.1631.1027@49.23.1631.1027" timestamp="1581143200376" />
-    <state x="987" y="247" width="670" height="676" key="search.everywhere.popup" timestamp="1581136962568">
+    <state width="1028" height="208" key="GridCell.Tab.0.right/49.23.1631.1027@49.23.1631.1027" timestamp="1581144222616" />
+    <state width="1028" height="308" key="GridCell.Tab.1.bottom" timestamp="1581144219532">
       <screen x="49" y="23" width="1631" height="1027" />
     </state>
-    <state x="987" y="247" width="670" height="676" key="search.everywhere.popup/49.23.1631.1027@49.23.1631.1027" timestamp="1581136962568" />
+    <state width="1028" height="308" key="GridCell.Tab.1.bottom/49.23.1631.1027@49.23.1631.1027" timestamp="1581144219532" />
+    <state width="1028" height="308" key="GridCell.Tab.1.center" timestamp="1581144219532">
+      <screen x="49" y="23" width="1631" height="1027" />
+    </state>
+    <state width="1028" height="308" key="GridCell.Tab.1.center/49.23.1631.1027@49.23.1631.1027" timestamp="1581144219532" />
+    <state width="1028" height="308" key="GridCell.Tab.1.left" timestamp="1581144219531">
+      <screen x="49" y="23" width="1631" height="1027" />
+    </state>
+    <state width="1028" height="308" key="GridCell.Tab.1.left/49.23.1631.1027@49.23.1631.1027" timestamp="1581144219531" />
+    <state width="1028" height="308" key="GridCell.Tab.1.right" timestamp="1581144219532">
+      <screen x="49" y="23" width="1631" height="1027" />
+    </state>
+    <state width="1028" height="308" key="GridCell.Tab.1.right/49.23.1631.1027@49.23.1631.1027" timestamp="1581144219532" />
+    <state x="987" y="247" width="670" height="676" key="search.everywhere.popup" timestamp="1581143571999">
+      <screen x="49" y="23" width="1631" height="1027" />
+    </state>
+    <state x="987" y="247" width="670" height="676" key="search.everywhere.popup/49.23.1631.1027@49.23.1631.1027" timestamp="1581143571999" />
   </component>
 </project>
