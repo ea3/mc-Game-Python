@@ -27,4 +27,3 @@ small_Vampire.take_damage(2)
 print("*" * 80)
 while big_Vampire.alive:
     big_Vampire.take_damage(1)
-    print(big_Vampire)

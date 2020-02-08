@@ -42,12 +42,15 @@ class Vampire(Enemy):
 
     def dodges(self):
 
-        if random.randint(1,3) == 3:
+        if random.randint(1, 3) == 3:
             print("****** {0.name} dodges *******".format(self))
             return True
         else:
             return False
 
+    def take_damage(self, damage):
+        if not self.dodges():
+            super().take_damage(damage=damage)
 
 
 
