@@ -31,3 +31,5 @@ def test_duck(duck):
 if __name__ == '__main__':
     donald = Duck()
     test_duck(donald)
+    percy = Penguin()
+    test_duck(percy)
