@@ -61,6 +61,7 @@ class HtmlDoc(object):
         self._head.display(file=file)
         self._body.display(file=file)
         print('</html>', file=file)
+        print("*****")
 
 
 if __name__ == '__main__':
